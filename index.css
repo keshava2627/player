@@ -1,0 +1,122 @@
+#progress-wrapper{
+    width:300px;
+    height:10px;
+    border: 1px solid rgb(57, 47, 255);
+   margin:15px auto;
+
+    border-radius: 15px;
+    overflow: hidden;
+}
+#progress-bar{
+    height: 100%;
+    background-color: blue;
+    width: 0%;
+    border-radius: 15px;
+    overflow: hidden;
+    
+    
+}
+body {
+    background-color:violet;
+    width: 100%;
+    height: 200%;
+}
+.container{
+    
+    width: 50%;
+    display: inline-block;
+    margin: 0px auto;
+    padding-left: 350px;
+    padding-top: 70px;
+
+}
+.song-image{
+    width: 50%;
+    height: 20%;
+    
+}
+.song-image:hover{
+    box-shadow: 10px 20px 20px 10px;
+    cursor: pointer;
+}
+#backward{
+    border: none;
+    background-color: violet;
+    cursor: pointer;
+}
+#playBtn{
+    border: none;
+    background-color: violet;
+    cursor: pointer;
+}
+#forwrad{
+    border: none;
+    background-color: violet;
+    cursor: pointer;
+}
+#pausebutton{
+    border: none;
+    background-color: violet;
+    cursor: pointer;
+}
+#restartbtn{
+    border: none;
+    background-color: violet;
+    cursor: pointer;
+}
+#halfspeed{
+    border: none;
+    background-color: violet;
+    cursor: pointer;
+}
+#normal{
+    border: none;
+    background-color: violet;
+    cursor: pointer;
+}
+#double{
+    border: none;
+    background-color: violet;
+    cursor: pointer;
+}
+#highspeed{
+    border: none;
+    background-color: violet;
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+}
+
+.music-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#album-art {
+    width: 400px;
+    height: 200px;
+    background-color: #ccc; /* Add your styles */
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    padding-left: 50px;
+   
+}
+
+#playList-wrapper {
+    float: right;
+    text-align: left;
+}
+
+#playList li {
+    cursor: pointer;
+}
+#song-info {
+    text-align: center;
+    
+}
+
+
